@@ -1,4 +1,4 @@
-package Aquarium
+package aquarium
 class Fish(val friendly:Boolean = true,volumeNeeded :Int) {
     val size : Int
 
@@ -11,11 +11,10 @@ class Fish(val friendly:Boolean = true,volumeNeeded :Int) {
     }
 
     init {
-        if(friendly){
-            size = volumeNeeded
-        }
-        else{
-            size = volumeNeeded * 2
+        size = if(friendly){
+            volumeNeeded
+        } else{
+            volumeNeeded * 2
         }
     }
 

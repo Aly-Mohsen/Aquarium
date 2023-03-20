@@ -1,4 +1,4 @@
-package Aquarium.Decorations
+package aquarium.Decorations
 
 fun main(args:Array<String>){
     makeDecorations()

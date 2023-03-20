@@ -5,23 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75d6a691-4b08-4ef2-94a5-f1bb303dd318" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aquarium.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Aquarium/Aquarium.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Aquarium/AquariumCare.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Aquarium/AquariumFish.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Aquarium/Decorations/Decoratins.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Aquarium/Fish.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Aquarium/Interface.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Aquarium/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/aquarium/generics/Aquarium.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Aquarium/Aquarium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aquarium/Aquarium.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Aquarium/AquariumCare.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aquarium/AquariumCare.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Aquarium/AquariumFish.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aquarium/AquariumFish.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Aquarium/Decorations/Decoratins.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aquarium/Decorations/Decoratins.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Aquarium/Fish.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aquarium/Fish.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Aquarium/Interface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aquarium/Interface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Aquarium/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aquarium/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +30,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="07f47e48-ca68-48b8-b1c2-b69f11ba6e81" />
+        <option name="url" value="https://github.com/Aly-Mohsen/Aquarium.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,33 +61,40 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.AquariumCareKt">
+  <component name="RunManager" selected="Kotlin.AquariumKt">
     <configuration name="AquariumCareKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aquarium.AquariumCareKt" />
+      <option name="MAIN_CLASS_NAME" value="aquarium.AquariumCareKt" />
+      <module name="Aquarium" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AquariumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aquarium.generics.AquariumKt" />
       <module name="Aquarium" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="DecoratinsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aquarium.Decorations.DecoratinsKt" />
+      <option name="MAIN_CLASS_NAME" value="aquarium.Decorations.DecoratinsKt" />
       <module name="Aquarium" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="InterfaceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aquarium.InterfaceKt" />
+      <option name="MAIN_CLASS_NAME" value="aquarium.InterfaceKt" />
       <module name="Aquarium" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aquarium.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="aquarium.MainKt" />
       <module name="Aquarium" />
       <shortenClasspath name="NONE" />
       <method v="2">
@@ -91,12 +103,14 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.AquariumCareKt" />
+      <item itemvalue="Kotlin.AquariumKt" />
       <item itemvalue="Kotlin.DecoratinsKt" />
       <item itemvalue="Kotlin.InterfaceKt" />
       <item itemvalue="Kotlin.MainKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.AquariumKt" />
         <item itemvalue="Kotlin.AquariumCareKt" />
         <item itemvalue="Kotlin.DecoratinsKt" />
         <item itemvalue="Kotlin.InterfaceKt" />
@@ -113,6 +127,14 @@
       <option name="presentableId" value="Default" />
       <updated>1678375826667</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1678812926886</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678812926886</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,5 +152,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
